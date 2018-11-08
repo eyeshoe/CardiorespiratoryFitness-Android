@@ -15,7 +15,7 @@
  *
  */
 
-package org.sagebase.crf.camera;
+package org.sagebionetworks.research.crf.camera;
 
 import android.annotation.TargetApi;
 import android.content.Context;

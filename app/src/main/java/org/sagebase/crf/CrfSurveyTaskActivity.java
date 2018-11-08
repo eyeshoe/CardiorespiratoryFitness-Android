@@ -15,7 +15,7 @@
  *
  */
 
-package org.sagebionetworks.research.crf;
+package org.sagebase.crf;
 
 import org.researchstack.backbone.ui.ViewTaskActivity;
 

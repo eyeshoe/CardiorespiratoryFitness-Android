@@ -15,7 +15,7 @@
  *
  */
 
-package org.sagebase.crf.step.active;
+package org.sagebionetworks.research.crf.heartrate;
 
 import android.graphics.Bitmap;
 

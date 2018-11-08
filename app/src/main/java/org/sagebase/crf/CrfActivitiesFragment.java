@@ -15,7 +15,7 @@
  *
  */
 
-package org.sagebionetworks.research.crf;
+package org.sagebase.crf;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;

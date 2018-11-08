@@ -15,7 +15,7 @@
  *
  */
 
-package org.sagebionetworks.research.crf;
+package org.sagebase.crf;
 
 import android.support.annotation.ColorRes;
 

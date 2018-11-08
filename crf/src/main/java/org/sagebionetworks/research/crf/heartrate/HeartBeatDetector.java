@@ -15,7 +15,7 @@
  *
  */
 
-package org.sagebase.crf.step.active;
+package org.sagebionetworks.research.crf.heartrate;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -25,12 +25,12 @@ import android.util.SparseArray;
 import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.Frame;
 
-import org.sagebase.crf.camera.CameraSource;
+import org.sagebionetworks.research.crf.camera.CameraSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static org.sagebase.crf.step.active.HeartBeatUtil.getHeartBeatSample;
-import static org.sagebase.crf.step.active.ImageUtils.toBitmap;
+import static org.sagebionetworks.research.crf.heartrate.HeartBeatUtil.getHeartBeatSample;
+import static org.sagebionetworks.research.crf.heartrate.ImageUtils.toBitmap;
 
 /**
  * Created by TheMDP on 10/17/17.

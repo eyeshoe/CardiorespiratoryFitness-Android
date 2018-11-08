@@ -15,7 +15,7 @@
  *
  */
 
-package org.sagebionetworks.research.crf;
+package org.sagebase.crf;
 
 import android.graphics.Color;
 import android.graphics.Typeface;

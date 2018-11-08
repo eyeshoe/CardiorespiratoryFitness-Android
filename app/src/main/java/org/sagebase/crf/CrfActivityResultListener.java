@@ -1,5 +1,5 @@
 /*
- *    Copyright 2018 Sage Bionetworks
+ *    Copyright 2017 Sage Bionetworks
  *
  *    Licensed under the Apache License, Version 2.0 (the "License");
  *    you may not use this file except in compliance with the License.
@@ -15,20 +15,14 @@
  *
  */
 
-package org.sagebionetworks.research.crf;
+package org.sagebase.crf;
 
-import org.sagebionetworks.bridge.android.di.ApplicationModule;
-import org.sagebionetworks.bridge.android.di.BridgeServiceModule;
-import org.sagebionetworks.bridge.android.manager.BridgeManagerProvider;
-
-import javax.inject.Singleton;
-
-import dagger.Component;
+import android.content.Intent;
 
 /**
- * Created by liujoshua on 2/22/2018.
+ * Created by rianhouston on 11/2/17.
  */
-@Singleton
-@Component(modules = {ApplicationModule.class, BridgeServiceModule.class, CrfS3Module.class})
-public interface CrfApplicationComponent extends BridgeManagerProvider {
+
+public interface CrfActivityResultListener {
+    void onActivityFinished(int requestCode, int resultCode, Intent data);
 }

@@ -15,7 +15,7 @@
  *
  */
 
-package org.sagebase.crf.step.active;
+package org.sagebionetworks.research.crf.heartrate;
 
 import android.os.Handler;
 import android.support.annotation.AnyThread;

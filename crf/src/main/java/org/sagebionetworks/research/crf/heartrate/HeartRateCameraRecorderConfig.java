@@ -15,14 +15,14 @@
  *
  */
 
-package org.sagebase.crf.step.active;
+package org.sagebionetworks.research.crf.heartrate;
 
 import android.os.Build;
 
 import org.researchstack.backbone.step.Step;
 import org.researchstack.backbone.step.active.recorder.Recorder;
 import org.researchstack.backbone.step.active.recorder.RecorderConfig;
-import org.sagebase.crf.camera.CameraSourcePreview;
+import org.sagebionetworks.research.crf.camera.CameraSourcePreview;
 import org.sagebase.crf.step.CrfHeartRateStepLayout;
 
 import java.io.File;

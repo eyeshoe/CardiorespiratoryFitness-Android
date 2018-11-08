@@ -15,7 +15,7 @@
  *
  */
 
-package org.sagebionetworks.research.crf;
+package org.sagebase.crf;
 
 import org.sagebionetworks.bridge.android.di.S3Module;
 

@@ -15,7 +15,7 @@
  *
  */
 
-package org.sagebase.crf.step.active;
+package org.sagebionetworks.research.crf.heartrate;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -83,8 +83,8 @@ import static android.hardware.camera2.CameraMetadata.INFO_SUPPORTED_HARDWARE_LE
 import static android.hardware.camera2.CameraMetadata.INFO_SUPPORTED_HARDWARE_LEVEL_LIMITED;
 import static android.hardware.camera2.CameraMetadata.REQUEST_AVAILABLE_CAPABILITIES_MANUAL_SENSOR;
 import static android.hardware.camera2.CaptureResult.*;
-import static org.sagebase.crf.step.active.HeartBeatUtil.getHeartBeatSample;
-import static org.sagebase.crf.step.active.ImageUtils.toBitmap;
+import static org.sagebionetworks.research.crf.heartrate.HeartBeatUtil.getHeartBeatSample;
+import static org.sagebionetworks.research.crf.heartrate.ImageUtils.toBitmap;
 
 /**
  * Created by liujoshua on 2/19/2018.
